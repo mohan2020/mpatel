@@ -1,0 +1,42 @@
+{{ partial "header" . }}
+
+<main id="blog">
+    {{ partial "hero-splash" (dict "imageUrl" "" "title" "Media Resources: Company Info, Press Coverage and more" "subtitle" "Behavioral Economics, Patient Engagement and Thought leadership in the press" "bgcolor" "#6CBEED") }}
+
+    <div class="bg-white">
+        <br/><br/>
+        <section class="content content-boxed">
+{{ range (.Paginate (where .Data.Pages "Section" "!=" "page")).Pages }}
+            <!-- List Content -->
+                <!-- Section Content -->
+                <div class="push-50-t push-50">
+                    <div class="row">
+                            <!-- Story -->
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="row items-push">
+                                        <div class="col-md-4">
+                                            <a target="_blank" href="{{.Params.source}}" >
+                                            <img class="img-responsive" src="{{.Params.image}}" alt="">
+                                            </a>
+                                        </div> 
+                                        <div class="col-md-8 ">
+                                            <div class="font-s12 push-10">
+                                               {{ .Date.Format "Mon Jan 2, 2006" }}
+                                            </div>
+                                            <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.title}}</a></h4>
+                                            <p class="push-20">{{.Params.summary | markdownify}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Story -->
+                    </div>
+                </div>
+{{ end }} 
+{{ template "_internal/pagination.html" . }}
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" . }}

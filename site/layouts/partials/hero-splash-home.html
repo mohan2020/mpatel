@@ -1,0 +1,29 @@
+<!-- Hero Content -->
+{{ if .imageUrl }}
+<div class="bg-image bg-image-cover" style="background-image: url('{{.imageUrl}}');">
+    {{else }}
+<div class="bg-image bg-image-cover" style="background-color: {{.bgcolor}}; color: white">
+{{ end }}
+    <div>
+        <section class="content-full overflow-hidden">
+            <!-- Section Content -->
+            <div class="push-150">
+                {{ if .biglogo }}
+                <img class="img-responsive img-container-full" src="{{.biglogo}}">
+                {{ end }}
+                <h1 class=" text-black visibility-hidden pull-right" data-toggle="appear" data-class="animated fadeInDown">{{.title}}</h1>
+                {{ if .subtitle}}
+                <br><br>
+                <h2 class="text-black-op visibility-hidden pull-right" data-toggle="appear" data-class="animated fadeInDown">{{.subtitle}}</h2>
+                {{ end }}
+            </div>
+            <!--div class="row visibility-hidden" >
+                <div class="col-sm-8 col-sm-offset-2">
+                    <img class="img-responsive pull-b" src="{{.imageUrl}}" alt="">
+                </div>
+            </div-->
+            <!-- END Section Content -->
+        </section>
+    </div>
+</div>
+<!-- END Hero Content -->

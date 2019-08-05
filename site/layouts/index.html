@@ -1,0 +1,60 @@
+{{ partial "header" . }}
+
+    <!-- Main Container -->
+    <main id="main-container bg-white" style="min-height: 431px;">
+	    {{ partial "hero-splash" (dict "imageUrl" .Params.biglogo "title" .Params.title "summary" .Params.summary "txtcolor" .Params.txtcolor)}}
+        <!-- Case studies -->
+{{ $v1 := where .Data.Pages "Section" "casestudies" }}
+{{ $v2 := where .Data.Pages "Params.spotlight" true }}
+{{ $v3 := where .Data.Pages "Params.area" "clinical"}}
+{{ $v4 := where .Data.Pages "Params.area" "research"}}
+{{ $filteredclinical := $v1 | intersect $v2 | intersect $v3 }}
+{{ $filteredresearch := $v1 | intersect $v2 | intersect $v4 }}
+        <!--div style="background-color: #6145ca; color: white;"-->
+        <div >
+            <br/><br/>
+            <section class="content content-boxed overflow-hidden">
+            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>
+            <!--p class="lead text-center">Click on any of the cards below to learn more</p-->
+                <div class="row text-center">
+                    <div class="btn-group" id="filters">
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-square active">All</button>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-square" data-filter=".research">Research</button>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-primary btn-square" data-filter=".clinical">Clinical</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row push-20-t push-20">
+                    <div class="grid">
+                        <!--h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Clinical Highlights</h2><br/><br/-->
+                            {{ range first 3 $filteredresearch }}
+                             {{ partial "3by1cards" . }} 
+                            {{ end }}
+                    <!--/div>
+                    <div class="row push-20-t push-20"> 
+                         <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Research Highlights</h2><br/><br/-->
+                            {{ range first 3 $filteredclinical }}
+                             {{ partial "3by1cards" . }} 
+                            {{ end }} 
+                    </div>
+                </div> 
+            </section>         
+        <div>
+            <section class="content content-full content-boxed">
+                <!-- CTA Content -->
+                <div class="push-20-t push-20 text-center">
+                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies">View more case studies</a>
+                </div>
+                <!-- END CTA Content -->
+            </section>
+        </div>
+        </div>
+    </main>
+    <!-- END Main Container -->
+
+{{ partial "footer" . }}

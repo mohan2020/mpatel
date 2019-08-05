@@ -1,0 +1,42 @@
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor "txtcolor" .Params.txtcolor ) }}
+
+    <div class="content bg-gray-lighter">
+        <section class="content content-boxed">
+            <p class="lead">{{ .Params.introduction }}</p>
+            <p >{{ .Params.introduction2 }}</p>
+	    	<div class="row">
+                <div class="col-lg-6">
+                <h2>Key Appointments</h2> </br></br>
+                {{ with .Params.mission }}
+                    {{ range .blurbs }}
+                        {{ partial "basicthemedblocks" . }}
+                    {{ end }}
+                {{ end }}
+                </div>
+	            <div class="col-lg-6">
+                <h2>Honors / Awards </h2> </br></br>
+	                <!-- Icon Based -->
+	                <div class="block block-themed">
+	                    <div class="block-header bg-info">
+	                        <h3 class="block-title">Timeline</h3>
+	                    </div>
+	                    <div class="block-content">
+                            {{ with .Params.timeline }}
+                                {{ range .milestones }}
+                                    {{ partial "timeline" . }}
+                                {{ end }}
+                            {{ end }}
+	                    </div>
+	                </div>
+	                <!-- END Icon Based -->
+	            </div>	
+	    	</div>
+    	</section>
+    </div>
+</main>
+
+{{ partial "footer" .}}

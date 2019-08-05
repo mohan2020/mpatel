@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111066412-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111066412-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <!--meta name="author" content="Mohan Balachandran">
+    <meta name="robots" content="noindex, nofollow"-->
+	<meta name="description" content="{{ $.Site.Params.description }}" />
+	<meta name="author" content="{{ $.Site.Params.author }}" />	
+	<meta name="robots" content="{{ $.Site.Params.robots }}" />	
+
+
+    <base href="{{ $.Site.BaseURL }}">
+    <title>{{ $.Site.Title }}</title>
+	<!-- Icons -->
+    <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+    <!-- END Icons -->
+
+    <!-- Stylesheets -->
+    <!-- Web fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <!--link rel="stylesheet" href="css/imports/bootstrap.min.css"/-->
+  </head>
+  <body>
+  	<!-- Page Container -->
+        <div id="page-container" class="side-scroll header-navbar-fixed header-navbar-transparent">
+            <!-- Header -->
+            <header id="header-navbar" class="content-mini content-mini-full ">
+                <div class="content-boxed">
+                    <!-- Header Navigation Right -->
+                    <ul class="nav-header pull-right">
+                        <li class="hidden-md hidden-lg">
+                            <button class="btn btn-link text-white pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                                <i class="fa fa-navicon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    <!-- END Header Navigation Right -->                    
+                    <!-- Main Header Navigation -->
+                    <ul class="js-nav-main-header nav-main-header pull-right">
+                        <li class="hidden-md hidden-lg clearfix push-20">
+                            <button class="btn btn-link text-white pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                                <i class="fa fa-times"></i>
+                            </button>
+
+                            <!-- Logo -->
+                            <!-- <a class="h5" href="index.html">
+                                <span class="h4 font-w600 text-white"><i class="fa fa-home"> Home </i></span>
+                            </a> -->
+                        </li>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="active" href="about">About</a>
+                        </li>
+                        <li>
+                            <a class="active" href="work">Work</a>
+                        </li>
+<!--                         <li>
+                        	<a class="active" href="casestudies">Case Studies</a>
+                        </li>  -->                       
+                        <li>
+                        	<a class="nav-submenu active" href="javascript:void(0)">Media</a>
+                            <ul>
+                                <li><a href="press">Press</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="av">Audio / Video</a></li>
+                            </ul>
+                        </li>                        
+                        <li>
+                            <a class=" nav-submenu active" href="javascript:void(0)">Writing</a>
+                            <ul>
+                                <li>
+                                    <a href="opinions">Opinions</a>
+                                </li>
+                                <li>
+                                    <a href="publications">Publications</a>
+                                </li>
+                                <li>
+                                    <a href="blog">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="active" href="contact">Contact</a>
+                        </li>                       
+                    </ul>
+                    <!-- END Main Header Navigation -->
+
+                    <!-- Header Navigation Left -->
+<!--                     <ul class="nav-header pull-left">
+                        <li class="header-content">
+                            <a class="h5" href="index.html">
+                               <span class="h4 font-w600 text-white"><img src="/img/logos/w2h-ShieldwWhitetext_177x27.png"></span>
+                            </a>
+                        </li>
+                    </ul> -->
+                    <!-- END Header Navigation Left -->                	
+                </div>
+            </header>
+

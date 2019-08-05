@@ -1,0 +1,193 @@
+            <!-- Footer -->
+            <footer id="page-footer" class="bg-default-darker text-white">
+                <div class="content content-boxed">
+                    <!-- Footer Navigation -->
+                    <div class="row push-30-t items-push-2x">
+                        <div class="col-sm-3">
+                            <h3 class="h5 font-w600 text-uppercase push-20">About</h3>
+                            <ul class="list list-simple-mini font-s13">
+                                <li>
+                                    <a class="font-w200 text-white" href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="platform">Platform</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="publications">Publications</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="press">Press</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="about">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3 class="h5 font-w200 text-uppercase push-20">Contact Us</h3>
+                            <ul class="list list-simple-mini font-s13">
+                                <li>
+                                    <a class="font-w200 text-white" href="mailto:waytohealth@uphs.upenn.edu?Subject=I'm interested in Way To Health" target="_top">Say hello</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="https://docs.google.com/forms/d/e/1FAIpQLScgIrWKhhxpF7Jlvr1sA0Q6aYIgna7h5P2ZZlB0UiVnSgXApg/viewform?usp=sf_link" target="blank">Request a quote</a>
+                                </li>
+                                <li>
+                                  <a class="font-w200 text-white" href="https://support.waytohealth.org" target="_blank">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                          <h3 class="h5 font-w600 text-uppercase push-20">Resources</h3>
+                            <ul class="list list-simple-mini font-s13">
+                                <li>
+                                    <a class="font-w200 text-white" href="faq">FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="legal">Legal</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="irbdocs">IRB Documentation</a>
+                                </li>
+                                <li>
+                                    <a class="font-w200 text-white" href="https://policy.waytohealth.org" target="_blank">Security Policy & Procedures</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3 class="h5 font-w600 text-uppercase push-20">Affliations</h3>
+                            <a href="https://chibe.upenn.edu/" target="blank"><img src="/img/various/chibe_small.png"></a><br/><br/>
+                            <a href="https://healthcareinnovation.upenn.edu/" target="blank"><img src="/img/various/pennmed.png"></a><br/><br/>
+                            <a href="https://healthcareinnovation.upenn.edu/" target="blank"><img src="/img/various/chci.png"></a>
+                        </div>
+                    </div>
+                    <!-- END Footer Navigation -->
+
+                    <!-- Copyright Info -->
+                    <div class="font-s12 push-20 clearfix">
+                        <hr class="remove-margin-t">
+                        <div class="pull-right">
+                            <a class="font-w600 text-white">Way To Health, 1022 Blockley Hall, Philadelphia, PA 19104 </a> &copy; <span class="js-year-copy"></span>
+                        </div>
+                        <div class="pull-left">
+                            
+                        </div>
+                    </div>
+                    <!-- END Copyright Info -->
+                </div>
+            </footer>
+            <!-- END Footer -->
+    </div>
+    <!-- END Page Container -->
+
+
+<!-- Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js > -->
+<script src="/js/core/jquery.min.js"></script>
+<script src="/js/core/bootstrap.min.js"></script>
+<script src="/js/core/jquery.slimscroll.min.js"></script>
+<script src="/js/core/jquery.scrollLock.min.js"></script>
+<script src="/js/core/jquery.appear.min.js"></script>
+<script src="/js/core/jquery.countTo.min.js"></script>
+<script src="/js/core/jquery.placeholder.min.js"></script>
+<script src="/js/core/js.cookie.min.js"></script>
+<!-- scripts for case studies and scrolling -->
+<!--script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.1/muuri.min.js"></script-->
+
+
+<script src="/js/app.js"></script>
+<!-- for coming soon page -->
+<script src="/js/core/jquery.countdown.min.js"></script>
+<script src="/js/core/countdown-comingsoon.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- for coming soon page -->
+<!-- scripts for device page-->
+<!--script src="/js/core/base_pages_files.js"></script>
+<!-- end scritps for devices page -->
+
+<!-- scripts for case studies and scrolling -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<!-- Page JS Code -> -->
+<script>
+    jQuery(function () {
+        // Init page helpers (Appear + CountTo plugins)
+        App.initHelpers(['appear', 'appear-countTo']);
+    });
+</script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<!-- isotope js -->
+<script type="text/javascript">
+
+// quick search regex
+var qsRegex;
+var buttonFilter;
+
+// init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  layoutMode: 'masonry',
+  filter: function() {
+    var $this = $(this);
+    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+    return searchResult && buttonResult;
+  }
+});
+
+$('#filters').on( 'click', 'button', function() {
+  buttonFilter = $( this ).attr('data-filter');
+  $grid.isotope();
+});
+
+
+// use value of search field to filter
+var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope();
+}) );
+
+
+  // change is-checked class on buttons
+$('.btn-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.active').removeClass('active');
+    $( this ).addClass('active');
+  });
+});
+  
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  return function debounced() {
+    if ( timeout ) {
+      clearTimeout( timeout );
+    }
+    function delayed() {
+      fn();
+      timeout = null;
+    }
+    setTimeout( delayed, threshold || 100 );
+  };
+}    
+</script>
+<!-- end isotope js -->
+
+  </body>
+</html>

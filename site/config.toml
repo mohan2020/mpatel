@@ -1,0 +1,19 @@
+baseurl = "/"
+languageCode = "en-us"
+#languageLang = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+title = "Mitesh Patel MD, MBA - Personal webiste"
+
+[params]
+description = "Mitesh Patel, MD, MBA is a Physician-Scientist and Director of the Penn Medicine Nudge Unit, the world’s first behavioral design team embedded within a health system. His research interests include nudges, digital health, wearables and gamification."
+author="Mohan Balachandran"
+robots="index, follow"
+
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disable404 =  false
+#googleAnalytics = "UA-111066412-1"
