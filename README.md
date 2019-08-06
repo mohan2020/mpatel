@@ -19,3 +19,4 @@ Netlify CMS is also integrated.
 - [ ] Contact
 - [ ] Twitter feed
 - [ ] Embed highlights from work, writing, media in base / home page
+- [x] Clean up unncessary images etc. 
