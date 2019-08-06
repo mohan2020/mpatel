@@ -1,11 +1,9 @@
 ---
 title: Welcome to the new website
-date: 2017-12-03
+date: 2019-08-06
 summary: >-
   It's been a long time coming 
 image: /img/bg/welcome.jpg
-authorname: Mohan Balachandran
-authorimage: /img/team/balachandran.png
 ---
 
 You may have noticed that we've revamped our website significantly. Well, some of you might have. A lot of you might be discovering us for the first time. So let's take a few minutes to give you a flavor of who we are and what we do.

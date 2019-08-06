@@ -4,15 +4,15 @@
 <div class="bg-image bg-image-cover" style="background-color: {{.bgcolor}}; color: {{.txtcolor}};">
 {{ end }}
     <div>
-        <section class="content content-full content-boxed overflow-hidden">
+        <section class="content content-full overflow-hidden">
             <div class="push-200-t push-150" style="text-align:right;">
                 {{ if .biglogo }}
-                <img class="img-responsive pull-b" src="{{.biglogo}}">
+                <img class="bg-image bg-image-cover img-responsive center" src="{{.biglogo}}">
                 {{ end }}
                 <div class="bg-dark-op">
                     <section class="content content-boxed">
                          <div class="push-30">
-                        <h1 class="push-50 push-150-t visibility-hidden" style="color: {{ .txtcolor }}" data-toggle="appear" data-class="animated fadeInDown">{{.title}}</h1>
+                        <h1 class="font-w300 text-white push-200-t visibility-hidden" style="color: {{ .txtcolor }}; font-size: 300%;" data-toggle="appear" data-class="animated fadeInDown">{{.title}}</h1>
                         {{ if .summary}}
                         <br><br>
                         <h2 class="push-50 visibility-hidden" style="color: {{ .txtcolor }}" data-toggle="appear" data-class="animated fadeInDown">{{.summary}} </h2>

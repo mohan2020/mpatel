@@ -8,13 +8,13 @@ Deployed via netlify.
 Netlify CMS is also integrated.
 
 ## TO DOs
-- [ ] Base design
+- [x] Base design
 - [ ] Home page
-- [ ] About page
+- [x] About page
 - [ ] Work
-- [ ] Writing > Opinions
-- [ ] Writing > Publications
-- [ ] Writing > Blog
+- [x] Writing > Opinions
+- [x] Writing > Publications
+- [x] Writing > Blog
 - [ ] Media
 - [ ] Contact
 - [ ] Twitter feed

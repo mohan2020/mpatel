@@ -3,52 +3,40 @@
     <!-- Main Container -->
     <main id="main-container bg-white" style="min-height: 431px;">
 	    {{ partial "hero-splash" (dict "imageUrl" .Params.biglogo "title" .Params.title "summary" .Params.summary "txtcolor" .Params.txtcolor)}}
+
+<div class="content bg-white">
+        <section class="content content-boxed">
+            <h2 class="text-center">Human behavior is the final common pathway for nearly every advance in medicine</h2>
+            <hr>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                <p class="lead">Mitesh Patel, MD, MBA is a Physician-Scientist and Director of the Penn Medicine Nudge Unit, the world’s first behavioral design team embedded within a health system. His research combines behavioral science with scalable technology platforms such as electronic health records and wearable devices to improve health and health care. He has led more than 20 clinical trials testing the design of nudges, incentives, and gamification to change clinician decisions and patient behaviors. He conducts consulting and speaking for a wide range of partners including health systems, insurers, biopharma and technology companies.  </p>
+                </div>
+            </div>
+            <hr />
+        </section>
+
+    </div>
         <!-- Case studies -->
-{{ $v1 := where .Data.Pages "Section" "casestudies" }}
+{{ $v1 := where .Data.Pages "Section" "opinions" }}
 {{ $v2 := where .Data.Pages "Params.spotlight" true }}
-{{ $v3 := where .Data.Pages "Params.area" "clinical"}}
-{{ $v4 := where .Data.Pages "Params.area" "research"}}
-{{ $filteredclinical := $v1 | intersect $v2 | intersect $v3 }}
-{{ $filteredresearch := $v1 | intersect $v2 | intersect $v4 }}
+{{ $filteredopinions := $v1 | intersect $v2 }}
         <!--div style="background-color: #6145ca; color: white;"-->
         <div >
             <br/><br/>
             <section class="content content-boxed overflow-hidden">
-            <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear"> CASE STUDY SPOTLIGHTS</h2>
-            <!--p class="lead text-center">Click on any of the cards below to learn more</p-->
-                <div class="row text-center">
-                    <div class="btn-group" id="filters">
-                        <div class="btn-group">
-                            <button class="btn btn-primary btn-square active">All</button>
-                        </div>
-                        <div class="btn-group">
-                            <button class="btn btn-primary btn-square" data-filter=".research">Research</button>
-                        </div>
-                        <div class="btn-group">
-                            <button class="btn btn-primary btn-square" data-filter=".clinical">Clinical</button>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="h3 push-50 visibility-hidden" data-toggle="appear"> Opinion Pieces</h2>
                 <div class="row push-20-t push-20">
                     <div class="grid">
-                        <!--h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Clinical Highlights</h2><br/><br/-->
-                            {{ range first 3 $filteredresearch }}
-                             {{ partial "3by1cards" . }} 
-                            {{ end }}
-                    <!--/div>
-                    <div class="row push-20-t push-20"> 
-                         <h2 class="h2 push-50 visibility-hidden text-center" data-toggle="appear">Research Highlights</h2><br/><br/-->
-                            {{ range first 3 $filteredclinical }}
-                             {{ partial "3by1cards" . }} 
-                            {{ end }} 
                     </div>
                 </div> 
             </section>         
         <div>
             <section class="content content-full content-boxed">
                 <!-- CTA Content -->
-                <div class="push-20-t push-20 text-center">
-                    <a class="btn btn-rounded btn-noborder btn-lg btn-success" href="casestudies">View more case studies</a>
+                <div class="push-20-t push-20">
+                    <a class="btn btn-rounded btn-noborder btn-md btn-info" href="casestudies">View more</a>
                 </div>
                 <!-- END CTA Content -->
             </section>

@@ -1,0 +1,9 @@
+<!-- layouts/taxonomy/tag.html -->
+
+<ul>
+  {{ range .Data.Pages }}
+    <li>
+      <a href="{{.RelPermalink}}">{{ .Params.articlename }}</a>
+    </li>
+  {{ end }}
+</ul>
