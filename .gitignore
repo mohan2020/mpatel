@@ -4,5 +4,4 @@ dist/
 *.log
 npm-debug.log
 *.log
-*.json
 *.code-snippets
