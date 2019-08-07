@@ -25,22 +25,26 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post. Not used currently.
       - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image. Not used currently.
       - {label: "Source", name: "source", widget: "string"} #Author Name
+      - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
   - name: "av" # Used in routes, e.g., /admin/collections/blog
     label: "Media: Audio, video" # Used in the UI
     folder: "site/content/av" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
       - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
+      - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
   - name: "opinions" # Used in routes, e.g., /admin/collections/blog
     label: "Opinion pieces" # Used in the UI
     folder: "site/content/opinions" # The path to the folder where the documents are stored
@@ -52,6 +56,7 @@ collections:
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
       - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI
     folder: "site/content/publications" # The path to the folder where the documents are stored
@@ -65,3 +70,4 @@ collections:
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Journal Abbr", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
