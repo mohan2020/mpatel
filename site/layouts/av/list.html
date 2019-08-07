@@ -1,0 +1,30 @@
+{{ partial "header" . }}
+
+<main id="opinions">
+    {{ partial "hero-splash" (dict "imageUrl" "" "title" "Press interviews, quotes and coverage" "subtitle" "" "bgcolor" "#0097e6") }}
+    <div class="bg-white content content-boxed overflow-hidden">
+        <br/><br/>
+<!--         {{ $pubs := (where .Data.Pages "Section" "!=" "page") }}
+        {{ $pubcount := len $pubs }}
+        <h3 class="text-uppercase"> {{$pubcount}} publications and counting</h3> -->
+        <section class="content content-boxed overflow-hidden">
+{{ range (where .Data.Pages "Section" "!=" "page") }}
+            <div class="push-50-t push-50">
+                <div class="row">
+                    <div class="block">
+                        <div class="block-content">
+                            <div class="row items-push">
+                                <h4 class=""><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.articlename}}</a>, {{.Params.journal}}, 
+                                    <em>{{ .Date.Format "January 02, 2006" }}</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{{ end }} 
+<!-- {{ template "_internal/pagination.html" . }} -->
+        </section>
+    </div>
+</main>
+
+{{ partial "footer" . }}

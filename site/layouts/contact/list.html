@@ -1,0 +1,86 @@
+{{ partial "header" .}}
+
+    <!-- Main Container -->
+<main id="about">
+	{{ partial "hero-splash" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "bgcolor" .Params.bgcolor "txtcolor" .Params.txtcolor ) }}
+
+    <div class="content bg-gray-lighter">
+        <section class="content content-boxed">
+	    	<div class="row">
+                <div class="col-lg-6">
+                <h2>Contact Details</h2> </br></br>
+                <p class="lead">{{ .Params.introduction }}</p>
+                {{ with .Params.contact }}
+                    {{ range .info }}
+                        {{ partial "basicthemedblocks" . }}
+                    {{ end }}
+                {{ end }}
+                </div>
+	            <div class="col-lg-6">
+                <h2>Get in touch </h2> </br></br>
+                            <!-- Material (floating) Contact -->
+                            <div class="block block-themed">
+                                <div class="block-header bg-info">
+                                    <h3 class="block-title">Drop me a note</h3>
+                                </div>
+                                <div class="block-content">
+                                    <form  name="contact" class="form-horizontal push-10-t push-10" action="base_forms_premade.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                                     <p style="visibility:hidden;">
+                                      <label>Honeypot: <input name="bot-field" /></label>
+                                    </p>
+                                        <div class="form-group">
+                                            <div class="col-xs-6">
+                                                <div class="form-material floating">
+                                                    <input class="form-control" type="text" id="contact3-firstname" name="contact3-firstname">
+                                                    <label for="contact3-firstname">Firstname</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-material floating">
+                                                    <input class="form-control" type="text" id="contact3-lastname" name="contact3-lastname">
+                                                    <label for="contact3-lastname">Lastname</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <div class="form-material floating input-group">
+                                                    <input class="form-control" type="email" id="contact3-email" name="contact3-email">
+                                                    <label for="contact3-email">Email</label>
+                                                    <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <div class="form-material floating input-group">
+                                                    <input class="form-control" type="text" id="contact3-org" name="contact3-org">
+                                                    <label for="contact3-org">Organization</label>
+                                                    <span class="input-group-addon"><i class="si si-home"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <div class="form-material floating">
+                                                    <textarea class="form-control" id="contact3-msg" name="contact3-msg" rows="10"></textarea>
+                                                    <label for="contact3-msg">Message (please indicate your intent - speaking, consulting etc.)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-xs-12">
+                                                <button class="btn btn-sm btn-info" type="submit"><i class="fa fa-send push-5-r"></i> Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- END Material (floating) Contact -->
+	            </div>	
+	    	</div>
+    	</section>
+    </div>
+</main>
+
+{{ partial "footer" .}}
