@@ -6,25 +6,8 @@ publish_mode: editorial_workflow
 media_folder: "site/static/img/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - name: "casestudies" # Used in routes, e.g., /admin/collections/blog
-    label: "Case Study Highlights" # Used in the UI
-    folder: "site/content/casestudies" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the case study
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Study Type", name: "area", widget: "string"} # Clinical or research area
-      - {label: "Clinical Domain", name: "subdomain", widget: "string"} # Specific clinical or ops area
-      - {label: "Authors (minimum of two required)", name: "authors", widget: "list", fields: [{label: "PI Name", name: "authorname", widget: "string"},{label: "PI image", name: "authorimage", widget: "image"},{label: "Role", name: "authorrole", widget: "string"}]} #Author Name
-      - {label: "Summary", name: "summary", widget: "string"} # summary of the study
-      - {label: "Outcomes (minimum of two required)", name: "results", widget: "list", fields: [{label: "Outcome", name: "result", widget: "string"}]}
-      - {label: "Features Used (minimum of two required)", name: "features", widget: "list", fields: [{label: "Feature", name: "feature", widget: "string"}], required: false}
-      - {label: "Spotlight (use lowercase true or false. Use 'true' if you want a full page description of study)", name: "spotlight", widget: "string" }
-      - {label: "Body", name: "body", widget: "markdown"} #body of the case study
-      - {label: "Publication(s)", name: "pubs", widget: "list", fields: [{label: "Publication Title", name: "pubname", widget: "string"},{label: "Publication URL", name: "pubURL", widget: "string"}], required: false}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Company blog" # Used in the UI
+    label: "Personal blog" # Used in the UI
     folder: "site/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g. title.md
@@ -32,33 +15,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image"} # background image
-      - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
-      - {label: "Author image", name: "authorimage", widget: "image"} # background image
-      - {label: "Body", name: "body", widget: "markdown"} #body of the case study
-  - name: "enggblog" # Used in routes, e.g., /admin/collections/blog
-    label: "Product & Engineering blog" # Used in the UI
-    folder: "site/content/enggblog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "string"} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image"} # background image
-      - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
-      - {label: "Author image", name: "authorimage", widget: "image"} # background image
-      - {label: "Body", name: "body", widget: "markdown"} #body of the case study
-  - name: "academy" # Used in routes, e.g., /admin/collections/blog
-    label: "Academy Posts" # Used in the UI
-    folder: "site/content/academy" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "string"} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image"} # background image
+      - {label: "Splash image", name: "image", widget: "image"} # background image. Use a large one. Check out unsplash.com for options
       - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
       - {label: "Author image", name: "authorimage", widget: "image"} # background image
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
@@ -70,8 +27,30 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "markdown"} # summary of the post
-      - {label: "Splash image", name: "image", widget: "image"} # background image
+      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post. Not used currently.
+      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image. Not used currently.
+      - {label: "Source", name: "source", widget: "string"} #Author Name
+  - name: "av" # Used in routes, e.g., /admin/collections/blog
+    label: "Media: Audio, video" # Used in the UI
+    folder: "site/content/av" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g. title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
+      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
+      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
+      - {label: "Source", name: "source", widget: "string"} #Author Name
+  - name: "opinions" # Used in routes, e.g., /admin/collections/blog
+    label: "Opinion pieces" # Used in the UI
+    folder: "site/content/opinions" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g. title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"} #title of the blog post
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
+      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
+      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI

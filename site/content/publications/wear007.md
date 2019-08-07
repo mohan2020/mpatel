@@ -9,4 +9,6 @@ source: 'https://annals.org/aim/article-abstract/2654953/using-wearable-devices-
 journal: AIM
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

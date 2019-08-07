@@ -9,4 +9,6 @@ source: 'https://jamanetwork.com/journals/jama/fullarticle/2108876'
 journal: JAMA
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

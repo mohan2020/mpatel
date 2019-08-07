@@ -10,4 +10,5 @@ authors: >-
 source: 'https://www.nytimes.com/2016/03/06/opinion/sunday/paying-employees-to-lose-weight.html'
 journal: NYTimes
 spotlight: false
+image: 
 ---

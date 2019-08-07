@@ -22,25 +22,66 @@
 {{ $v1 := where .Data.Pages "Section" "opinions" }}
 {{ $v2 := where .Data.Pages "Params.spotlight" true }}
 {{ $filteredopinions := $v1 | intersect $v2 }}
+{{ $v3 := where .Data.Pages "Section" "publications" }}
+{{ $v4 := where .Data.Pages "Params.spotlight" true }}
+{{ $filteredpublications := $v3 | intersect $v4 }}
+{{ $v5 := where .Data.Pages "Section" "press" }}
+{{ $v6 := where .Data.Pages "Params.spotlight" true }}
+{{ $filteredpress := $v5 | intersect $v6 }}
+{{ $v7 := where .Data.Pages "Section" "av" }}
+{{ $v8 := where .Data.Pages "Params.spotlight" true }}
+{{ $filteredav := $v7 | intersect $v8 }}
         <!--div style="background-color: #6145ca; color: white;"-->
         <div >
             <br/><br/>
-            <section class="content content-boxed overflow-hidden">
-            <h2 class="h3 push-50 visibility-hidden" data-toggle="appear"> Opinion Pieces</h2>
-                <div class="row push-20-t push-20">
-                    <div class="grid">
+            <div class="row push-20-t push-20">
+                <section class="content content-boxed overflow-hidden">
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Opinion Pieces</h2>
+                        <hr/>
+                        {{ range first 3 $filteredopinions }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }}
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="opinions">View more</a>
+                        </div>
                     </div>
-                </div> 
-            </section>         
-        <div>
-            <section class="content content-full content-boxed">
-                <!-- CTA Content -->
-                <div class="push-20-t push-20">
-                    <a class="btn btn-rounded btn-noborder btn-md btn-info" href="casestudies">View more</a>
-                </div>
-                <!-- END CTA Content -->
-            </section>
-        </div>
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+                        <hr/>
+                        {{ range first 3 $filteredpublications }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row push-20-t push-20">
+                <section class="content content-boxed overflow-hidden">
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Press</h2>
+                        <hr/>
+                        {{ range first 3 $filteredpress }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="press">View more</a>
+                        </div>
+                    </div>
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Media</h2>
+                        <hr/>
+                        {{ range first 3 $filteredav }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="av">View more</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </main>
     <!-- END Main Container -->

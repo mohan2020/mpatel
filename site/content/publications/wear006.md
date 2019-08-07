@@ -9,4 +9,6 @@ source: 'https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/
 journal: JAMA IM
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

@@ -10,4 +10,5 @@ authors: >-
 source: 'https://www.nature.com/articles/s41562-018-0445-x'
 journal: Nature Hum
 spotlight: true
+image: 
 ---

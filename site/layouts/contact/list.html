@@ -10,14 +10,15 @@
                 <div class="col-lg-6">
                 <h2>Contact Details</h2> </br></br>
                 <p class="lead">{{ .Params.introduction }}</p>
-                {{ with .Params.contact }}
-                    {{ range .info }}
-                        {{ partial "basicthemedblocks" . }}
-                    {{ end }}
-                {{ end }}
+                <br/>
+                <h3 class="font-w300 push">Speaking</h3>
+                <p class="lead">{{ .Params.speaking }}</p>
+                <br/>
+                <h3 class="font-w300 push">Consulting</h3>
+                <p class="lead">{{ .Params.consulting }}</p>
                 </div>
 	            <div class="col-lg-6">
-                <h2>Get in touch </h2> </br></br>
+                <!-- <h2>Get in touch </h2> </br></br> -->
                             <!-- Material (floating) Contact -->
                             <div class="block block-themed">
                                 <div class="block-header bg-info">
@@ -64,13 +65,13 @@
                                             <div class="col-xs-12">
                                                 <div class="form-material floating">
                                                     <textarea class="form-control" id="contact3-msg" name="contact3-msg" rows="10"></textarea>
-                                                    <label for="contact3-msg">Message (please indicate your intent - speaking, consulting etc.)</label>
+                                                    <label for="contact3-msg">Message (please indicate your interest - speaking, consulting etc.)</label>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group text-center">
                                             <div class="col-xs-12">
-                                                <button class="btn btn-sm btn-info" type="submit"><i class="fa fa-send push-5-r"></i> Send Message</button>
+                                                <button class="btn btn-lg btn-info" type="submit"><i class="fa fa-send push-5-r"></i> Send Message</button>
                                             </div>
                                         </div>
                                     </form>

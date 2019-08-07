@@ -7,4 +7,6 @@ source: 'https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/25206
 journal: JAMA IM
 topic: Nudges
 spotlight: false
+image: 
+summary: 
 ---

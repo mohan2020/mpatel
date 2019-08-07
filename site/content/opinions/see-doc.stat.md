@@ -10,4 +10,5 @@ authors: >-
 source: 'https://www.statnews.com/2019/05/10/best-time-day-see-your-doctor/'
 journal: STAT
 spotlight: true
+image: 
 ---

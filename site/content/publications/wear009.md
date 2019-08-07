@@ -9,4 +9,6 @@ source: 'https://annals.org/aim/article-abstract/2491916/framing-financial-incen
 journal: AIM
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

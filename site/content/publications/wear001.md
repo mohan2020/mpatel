@@ -9,5 +9,7 @@ source: ''
 journal: JAMA IM
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---
 

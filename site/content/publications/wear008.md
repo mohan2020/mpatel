@@ -9,4 +9,6 @@ source: 'https://jamanetwork.com/journals/jamapediatrics/article-abstract/265731
 journal: JAMA Ped
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

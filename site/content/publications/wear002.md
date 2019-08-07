@@ -9,4 +9,6 @@ source: 'https://journals.sagepub.com/doi/full/10.1177/0890117118790394'
 journal: Am J Hlth Prom
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

@@ -7,4 +7,6 @@ source: 'https://link.springer.com/article/10.1007/s11606-017-4286-5'
 journal: JGIM
 topic: Nudges
 spotlight: false
+image: 
+summary: 
 ---

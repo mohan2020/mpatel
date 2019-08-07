@@ -10,4 +10,5 @@ authors: >-
 source: 'https://www.nejm.org/doi/full/10.1056/NEJMp1712984'
 journal: NEJM
 spotlight: false
+image: 
 ---

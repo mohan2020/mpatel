@@ -14,7 +14,8 @@ Netlify CMS is also integrated.
 - [x] Writing > Blog
 - [x] Media - AV
 - [x] Media - Press
-- [ ] Contact
-- [ ] Twitter feed
-- [ ] Embed highlights from work, writing, media in base / home page
+- [x] Contact
+- [x] Twitter feed
+- [x] Embed highlights from work, writing, media in base / home page
 - [x] Clean up unncessary images etc. 
+- [x] Admin / data entry and netlify CMS

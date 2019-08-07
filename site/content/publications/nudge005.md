@@ -7,4 +7,6 @@ source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2702210'
 journal: JAMA Open
 topic: Nudges
 spotlight: false
+image: 
+summary: 
 ---

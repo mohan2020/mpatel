@@ -9,4 +9,6 @@ source: 'https://link.springer.com/article/10.1007%2Fs11606-016-3673-7'
 journal: JGIM
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---

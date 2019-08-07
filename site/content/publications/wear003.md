@@ -9,4 +9,6 @@ source: 'https://www.ahajournals.org/doi/full/10.1161/JAHA.118.009173'
 journal: JAHA
 spotlight: true
 topic: Wearables
+image: 
+summary: 
 ---
