@@ -10,5 +10,5 @@ authors: >-
 source: 'https://www.forbes.com/sites/realspin/2016/10/25/getting-to-optimal-generic-drugs-and-electronic-health-records/#7e440e37396f'
 journal: Forbes
 spotlight: true
-image: 
+image: /img/uploads/hbr.doctors.jpg
 ---

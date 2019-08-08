@@ -1,0 +1,77 @@
+<!--div class="item"> 
+    <div class="item-content"-->
+        <div class="grid-item {{.Params.area}} col-sm-12 col-lg-6">
+            <!-- Developer Plan -->
+             {{ if .Params.spotlight }}
+            <a class="block text-center block-rounded block-bordered" href="{{.Permalink}}">
+                <div class="block-header bg-success"> 
+            {{ else }}
+            <a class="block text-center block-bordered">
+                <div class="block-header bg-primary">  
+            {{ end }}
+                {{ if eq .Params.area "inprogress" }}
+                    <h3 class="block-title" style="color: white">{{ .Params.subdomain}} - {{.Params.status}}</h3>
+                {{ else }}
+                    <h3 class="block-title" style="color: white">{{ .Params.subdomain}}</h3>
+                {{ end }}
+                </div>
+                <div class="block-content block-content-full ">
+                    <div class="h4 font-w700 push-10">{{ .Title}} </div>
+                </div>
+                    <div class="row text-center" style="display: flex; justify-content: space-between;">
+                        {{ range first 2 .Params.authors }}
+                        <div class="col-sm-4">
+                            <img class="img-avatar img-avatar-thumb" src="{{.authorimage}}" alt="">
+                            <div class="h6 push-10-t push-5">{{ .authorname }}</div>
+                        </div>
+                        {{end}}              
+                    </div>        
+                <div class="block-content">
+                    <table class="table table-borderless table-condensed">
+                        <tbody>
+                            <tr>
+                                <td>{{ .Params.summary }} </td>
+                            </tr>
+                        </tbody>
+                    </table>            
+                </div>
+                {{ if ne .Params.area "inprogress"}}
+                <div class="block-header bg-success text-white">
+                    <h3 class="block-title">Outcomes</h3>
+                </div> 
+                <div class="block-content bg-success text-white">
+                    <table class="table table-borderless table-condensed">
+                        <tbody>
+                            {{ range .Params.results}}
+                            <tr>
+                                <td>{{ .result | markdownify}}</td>
+                            </tr>
+                            {{ end }}
+                        </tbody>
+                    </table>
+                    {{ if .Params.spotlight}}                    
+                    <p class="btn btn-rounded btn-sm btn-success">View Details</p>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ if eq .Params.area "inprogress"}}
+                <div class="block-header bg-primary text-white">
+                    <h3 class="block-title">Features</h3>
+                </div> 
+                <div class="block-content bg-primary text-white">
+                    <table class="table table-borderless table-condensed">
+                        <tbody>
+                            {{ range .Params.features}}
+                            <tr>
+                                <td>{{ .feature | markdownify}}</td>
+                            </tr>
+                            {{ end }}
+                        </tbody>
+                    </table>
+                </div>
+                {{ end }}
+
+            </a>
+        </div>
+<!--    </div>
+</div-->

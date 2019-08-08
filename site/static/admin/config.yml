@@ -26,11 +26,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post. Not used currently.
-      - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
+      - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Summary", name: "summary", widget: "markdown", required: false} # summary of the post. Not used currently.
+      - {label: "Thumbnail image", name: "image", widget: "image", required: false} # background image
   - name: "av" # Used in routes, e.g., /admin/collections/blog
     label: "Media: Audio, video" # Used in the UI
     folder: "site/content/av" # The path to the folder where the documents are stored
@@ -38,11 +39,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
-      - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
+      - {label: "Source", name: "source", widget: "string"} #Author Name      
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Summary", name: "summary", widget: "markdown", required: false} # summary of the post
+      - {label: "Thumbnail image", name: "image", widget: "image", required: false} # background image
   - name: "opinions" # Used in routes, e.g., /admin/collections/blog
     label: "Opinion pieces" # Used in the UI
     folder: "site/content/opinions" # The path to the folder where the documents are stored
@@ -50,10 +52,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
+      - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Summary", name: "summary", widget: "markdown", required: false} # summary of the post
+      - {label: "Thumbnail image", name: "image", widget: "image"} # background image
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
     label: "Publications" # Used in the UI
     folder: "site/content/publications" # The path to the folder where the documents are stored
@@ -63,8 +67,9 @@ collections:
       - {label: "Study Name", name: "title", widget: "string"} #title of the blog post
       - {label: "Article Name", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
-      - {label: "Summary", name: "summary", widget: "string"} # summary of the post
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Journal Abbr", name: "journal", widget: "string"} #Abbreviated Journal name in citation
+      - {label: "Summary (not used currently)", name: "summary", widget: "string"} # summary of the post      
+      - {label: "Thumbnail image (not used currently)", name: "image", widget: "image", required: false} # background image
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}

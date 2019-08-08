@@ -10,5 +10,5 @@ authors: >-
 source: 'https://catalyst.nejm.org/launching-nudge-units-health-care/'
 journal: NEJM Catalyst
 spotlight: false
-image: 
+image: /img/uploads/hbr.doctors.jpg
 ---

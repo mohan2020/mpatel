@@ -10,5 +10,5 @@ authors: >-
 source: 'https://jamanetwork.com/journals/jama/article-abstract/2089651'
 journal: JAMA
 spotlight: false
-image: 
+image: /img/uploads/hbr.doctors.jpg
 ---

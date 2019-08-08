@@ -10,6 +10,6 @@ authors: >-
 source: 'https://hbr.org/2019/05/improving-health-care-by-gamifying-it'
 journal: HBR
 spotlight: true
-image: 
+image: /img/uploads/hbr.doctors.jpg
 ---
 

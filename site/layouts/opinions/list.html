@@ -14,14 +14,25 @@
                     <div class="block">
                         <div class="block-content">
                             <div class="row items-push">
-                                <h5 class="pull-right">{{.Params.journal}}</h5>
-                                <h4 class="text-uppercase push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.articlename}}</a></h4>
-                                <em class="pull-right">{{ .Date.Format "Jan 2006" }}</em>
-                                <div class="font-s12 push-20">
-                                    {{.Params.authors}}
+                                {{ if .Params.image }}
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="{{ .Params.image }}" alt="">
+                                    </a>
+                                </div> 
+                                <div class="col-md-8">
+                                    <h5 class="pull-right">{{.Params.journal}}</h5>
+                                    <h4 class="push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.articlename}}</a></h4>
+                                    <em class="pull-right">{{ .Date.Format "Jan 2006" }}</em>
+                                    <p class="push-20">{{.Params.summary}}</p>
                                 </div>
-                                <p class="push-20">{{.Params.summary | markdownify}}</p>
-                            </div>
+                                {{ else }}
+                                <div class="col-md-12">
+                                    <h5 class="pull-right">{{.Params.journal}}</h5>
+                                    <h4 class="push-10"><a class="text-primary-dark" target="_blank" href="{{.Params.source}}">{{.Params.articlename}}</a></h4>
+                                    <em class="pull-right">{{ .Date.Format "Jan 2006" }}</em>
+                                    <p class="push-20">{{.Params.summary}}</p>
+                                </div>
+                                {{ end }}
                         </div>
                     </div>
                 </div>
