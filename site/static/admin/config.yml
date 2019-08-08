@@ -28,7 +28,6 @@ collections:
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post. Not used currently.
-      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image. Not used currently.
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
@@ -41,7 +40,6 @@ collections:
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
-      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
@@ -54,7 +52,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary (Not used currently)", name: "summary", widget: "markdown"} # summary of the post
-      - {label: "Splash image (Not used currently)", name: "image", widget: "image"} # background image
       - {label: "Source", name: "source", widget: "string"} #Author Name
       - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
   - name: "publications" # Used in routes, e.g., /admin/collections/blog
