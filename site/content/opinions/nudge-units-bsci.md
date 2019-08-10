@@ -1,6 +1,6 @@
 ---
 articlename: Can “Nudge Units” Help Build Better Health Systems?
-journal: BSci
+journal: Behavioral Scientist
 date: '2018-01-30'
 source: >-
   https://behavioralscientist.org/can-nudge-units-help-build-better-health-systems/
