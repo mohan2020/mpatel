@@ -1,14 +1,13 @@
 ---
-title: Nudge Units - BS
-articlename: >-
-  Can “Nudge Units” Help Build Better Health Systems?
-date: '2018-01-30'
-summary: >-
-  Behavioral Design Teams in health are only just beginning—there’s plenty more innovation to come—but they offer an evidence-based innovation pathway to improve health care delivery and reduce the cost of care.
-authors: >-
-  Mitesh S. Patel, Ted Robertson
-source: 'https://behavioralscientist.org/can-nudge-units-help-build-better-health-systems/'
+articlename: Can “Nudge Units” Help Build Better Health Systems?
 journal: BSci
+date: '2018-01-30'
+source: >-
+  https://behavioralscientist.org/can-nudge-units-help-build-better-health-systems/
 spotlight: false
-image: /img/uploads/hbr.doctors.jpg
+summary: >-
+  Building behavioral science teams and methodologies into health systems would
+  create more and better solutions to some of the toughest problems in health.
+image: /img/uploads/nudge-units.png
 ---
+
