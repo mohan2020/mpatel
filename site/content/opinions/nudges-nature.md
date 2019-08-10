@@ -1,5 +1,5 @@
 ---
-articlename: Nudges for influenza vaccination
+articlename: Nudges for Influenza Vaccination
 journal: Nature Human Behaviour
 date: '2018-10-01'
 source: 'https://www.nature.com/articles/s41562-018-0445-x'
