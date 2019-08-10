@@ -1,14 +1,10 @@
 ---
-title: wearables facilitators jama
-articlename: >-
-  Wearable Devices as Facilitators, Not Drivers, of Health Behavior Change
-date: '2015-02-03'
-summary: >-
-  Several large technology companies including Apple, Google, and Samsung are entering the expanding market of population health with the introduction of wearable devices. This technology, worn in clothing or accessories, is part of a larger movement often referred to as the “quantified self.” The notion is that by recording and reporting information about behaviors such as physical activity or sleep patterns, these devices can educate and motivate individuals toward better habits and better health. The gap between recording information and changing behavior is substantial, however, and while these devices are increasing in popularity, little evidence suggests that they are bridging that gap.
-authors: >-
-  Mitesh S. Patel, David A. Asch, Kevin G. Volpp
-source: 'https://jamanetwork.com/journals/jama/article-abstract/2089651'
+articlename: 'Wearable Devices as Facilitators, Not Drivers, of Health Behavior Change'
 journal: JAMA
-spotlight: false
-image: /img/uploads/hbr.doctors.jpg
+date: '2015-02-03'
+source: 'https://jamanetwork.com/journals/jama/article-abstract/2089651'
+spotlight: true
+summary: "Although wearable devices have the potential to facilitate health behavior\r change, this change might not be driven by these devices\r alone. Instead, the successful use and potential health benefits related\r to these devices depend more on the design of the engagement\r strategies than on the features of their technology."
+image: /img/uploads/wearable-devices.jpeg
 ---
+
