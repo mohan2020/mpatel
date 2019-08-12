@@ -9,6 +9,6 @@ summary: >-
   care. Yet often the frames or default options used are selected without
   attention to strategic goals. Creating a nudge unit in a health care system
   can lead to consistently better decisions.
-image: /img/uploads/nudge-unit.jpg
+image: /img/uploads/economist-nudge.jpg
 ---
 
