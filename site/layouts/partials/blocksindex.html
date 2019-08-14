@@ -1,6 +1,8 @@
 <div class="block block-themed">
     <div class="nice-copy-story block-content content-boxed">
-    	<h3 class="font-w400">{{ .Params.articlename }}</h3>
-        <p>{{ .Params.journal }}, {{ .Date.Format "Jan 2006" }}</p>
+    	<a href="{{ .Params.source }}">
+    		<h3 class="font-w400">{{ .Params.articlename }}</h3>
+    		<p>{{ .Params.journal }}, {{ .Date.Format "Jan 2006" }}</p>
+    	</a>
     </div>                            
 </div>

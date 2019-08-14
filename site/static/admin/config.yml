@@ -23,7 +23,7 @@ collections:
     label: "Press" # Used in the UI
     folder: "site/content/press" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
+    slug: "{{articlename}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
@@ -36,7 +36,7 @@ collections:
     label: "Media: Audio, video" # Used in the UI
     folder: "site/content/av" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
+    slug: "{{articlename}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
@@ -49,7 +49,7 @@ collections:
     label: "Opinion pieces" # Used in the UI
     folder: "site/content/opinions" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g. title.md
+    slug: "{{articlename}}" # Filename template, e.g. title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "articlename", widget: "string"} #title of the blog post
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
