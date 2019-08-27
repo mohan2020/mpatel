@@ -4,6 +4,7 @@ articlename: >-
   Using Wearable Devices and Smartphones to Track Physical Activity: Initial
   Activation, Sustained Use, and Step Counts Across Sociodemographic
   Characteristics in a National Sample
+topic: Wearables
 date: '2017-11-21'
 authors: Mitesh S. Patel
 source: >-

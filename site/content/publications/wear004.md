@@ -3,6 +3,7 @@ title: wear004
 articlename: >-
   A Randomized, Controlled Trial of Lottery-Based Financial Incentives to
   Increase Physical Activity Among Overweight and Obese Adults
+topic: Wearables
 date: '2018-03-13'
 authors: >-
   Mitesh S. Patel, MD, MBA, MS, Kevin G. Volpp, MD, PhD, Roy Rosin, MBA,

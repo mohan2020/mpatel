@@ -3,6 +3,7 @@ title: wear009
 articlename: >-
   Framing Financial Incentives to Increase Physical Activity Among Overweight
   and Obese Adults: A Randomized, Controlled Trial
+topic: Wearables
 date: '2016-03-15'
 authors: >-
   Mitesh S. Patel, MD, MBA, MS; David A. Asch, MD MBA; Roy Rosin, MBA; Dylan S.

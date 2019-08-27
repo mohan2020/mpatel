@@ -1,10 +1,10 @@
 ---
 title: Mitesh Patel, MD, MBA
 bgcolor: "#2e376b"
-txtcolor: black
+txtcolor: white
 image: 
-biglogo: /img/various/mitesh1.bw.png 
-summary: Nudge / Digital Health / Gamification
+biglogo: /img/various/mitesh-2.jpg 
+summary: Nudge / Gamification / Wearables
 oldsummary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Interventions found to be successful can be applied to various populations and rolled out at scale quickly.
 
 keyfeatures:

@@ -3,6 +3,7 @@ title: wear010
 articlename: >-
   A Randomized Trial of Social Comparison Feedback and Financial Incentives to
   Increase Physical Activity
+topic: Wearables
 date: '2016-07-15'
 authors: >-
   Mitesh S. Patel, Kevin G. Volpp, MD, PhD, Roy Rosin, MBA, Scarlett L. Bellamy,

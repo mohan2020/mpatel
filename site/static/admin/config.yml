@@ -66,6 +66,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Study Name", name: "title", widget: "string"} #title of the blog post
       - {label: "Article Name", name: "articlename", widget: "string"} #title of the blog post
+      - {label: "Topic", name: "topic", widget: "select", options: ["Nudges", "Wearables"]}
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Authors", name: "authors", widget: "string"} # publication authors
       - {label: "Source", name: "source", widget: "string"} #Author Name

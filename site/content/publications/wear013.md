@@ -3,6 +3,7 @@ title: wear013
 articlename: >-
   Accuracy of Smartphone Applications and Wearable Devices for Tracking Physical
   Activity Data
+topic: Wearables
 date: '2015-02-10'
 authors: >-
   Meredith A. Case, BA; Holland A. Burwick; Kevin G. Volpp, MD, PhD; Mitesh S.

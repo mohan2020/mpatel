@@ -3,6 +3,7 @@ title: wear005
 articlename: >-
   Social Incentives and Gamification to Promote Weight Loss: The LOSE IT
   Randomized, Controlled Trial
+topic: Wearables
 date: '2018-07-12'
 authors: >-
   Gregory W. Kurtzman, Susan C. Day, Dylan S. Small, Marta Lynch, Jingsan Zhu,

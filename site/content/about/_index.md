@@ -4,7 +4,7 @@ image:
 bgcolor: "#70b9eb"
 txtcolor: white
 subtitle:
-introduction: Dr. Mitesh Patel is considered the foremost authority on health care specific nudges, wearables and gamification. 
+introduction: Dr. Mitesh Patel is a leading expert on using nudges, gamification, and wearables to improve health 
 introduction2: He has led more than 20 clinical trials in partnership with health systems, insurers, employers, and community organizations that tested ways to design nudges, incentives, and gamification to change clinician and patient behavior. This work includes digital health interventions using wearable devices and smartphones, and health system interventions using the electronic health record. His work has been published in leading medical journals including the New England Journal of Medicine, JAMA, Annals of Internal Medicine, and Health Affairs. His work has been featured in numerous media outlets including the New York Times, NBC Today Show, Wall Street Journal, Washington Post, Forbes, Bloomberg, Time, NPR and CNN.
 mission:
   blurbs:
@@ -22,6 +22,11 @@ mission:
         Staff physician at the Crescenz VA Medical Center in Philadelphia.
 timeline:
   milestones:
+    - date: 2019
+      icon: trophy
+      iconcolor: blue
+      milestone: BX Award for Outstanding Practitioner of the Year
+      text: Behavioral Exchange Conference
     - date: 2019
       icon: line-chart
       iconcolor: green
