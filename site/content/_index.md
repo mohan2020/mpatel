@@ -4,7 +4,7 @@ bgcolor: "#2e376b"
 txtcolor: white
 image: 
 biglogo: /img/various/mitesh-2.jpg 
-summary: Nudge / Gamification / Wearables
+summary: Nudges / Gamification / Wearables
 oldsummary: Way to Health is a web-based platform that enables and automates research into healthy behavior interventions. Interventions found to be successful can be applied to various populations and rolled out at scale quickly.
 
 keyfeatures:

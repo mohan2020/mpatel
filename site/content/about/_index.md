@@ -10,7 +10,7 @@ mission:
   blurbs:
     - title: Penn Medicine Nudge Unit
       description: > 
-        Director of the Penn Medicine Nudge Unit, the world’s first behavioral design team embedded within a health system. 
+        Dr. Patel is the Director of the Penn Medicine Nudge Unit, the world’s first behavioral design team embedded within a health system. He leads a behavioral design team that focuses on improving health and health care through the use of nudges, gamification, and wearables. Learn more about the Penn Medicine Nudge Unit [here](https://nudgeunit.upenn.edu).
     - title: Perelman School of Medicine
       description: >
         Assistant Professor of Medicine at the Perelman School. Dr. Patel is on faculty at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics. 
