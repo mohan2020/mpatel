@@ -4,7 +4,7 @@ image:
 bgcolor: "#242F40"
 
 introduction: >
-  Dr. Patel provides consulting for a broad range of Fortune 500 companies including health insurers, health systems, biopharma, and technology companies. He had helped to provide guidance on high-level strategy, design and implementation of operations and research protocols, and led workshops to help executives embed behavioral insights within their company's products and services.
+  Dr. Patel provides consulting for a broad range of Fortune 500 organizations including health insurers, health systems, biopharma, and technology companies. He has helped to provide guidance on high-level strategy, design and implementation of operations and research protocols, and led workshops to train executives on embedding behavioral insights within their company’s products and services. Here are selected examples of his work
 
 nudges:
   featureset: Nudges
@@ -14,14 +14,14 @@ nudges:
   blurbs:
     - icon: commenting-o
       iconcolor: "#49A078"    
-      feature: Default designs
+      feature: Increased customer engagement for insurance programs
       text: >
-        Non aute occaecat fugiat commodo commodo ullamco eu eiusmod duis eu nisi proident pariatur irure sunt sint reprehenderit sunt reprehenderit esse amet ut elit dolor adipisicing sed esse dolor eu duis id ut enim ullamco tempor irure id sed in ullamco occaecat laborum est pariatur sit est consectetur pariatur ad dolore dolore labore
+        Provided hands-on assistance for a fast-growing technology startup on how to use nudges within their platform’s loyalty program which is used within health insurance and life insurance programs across the United States
     - icon: list-alt
       iconcolor: "#49A078"
-      feature: Active Choice
+      feature: Improved clinical trial enrollment by biopharma
       text: >
-        Ea voluptate dolore dolore labore dolor fugiat in consectetur labore voluptate ex exercitation non sit amet quis amet id ut in do sed anim ex mollit tempor do cupidatat qui commodo culpa in ea eiusmod dolore excepteur tempor ut in do ut fugiat pariatur cillum laborum commodo sint amet velit nulla magna et anim consequat ea elit nisi proident
+        Provided guidance for a Top 5 pharmaceutical company to increase the efficiency of clinical trial enrollment and long-term monitoring
 
 gamification:
   featureset: Gamification
@@ -31,14 +31,14 @@ gamification:
   blurbs:
     - icon: heartbeat
       iconcolor: "#49A078"
-      feature: Points and badges
+      feature: Designed a workplace wellness program
       text: >
-        Dolore qui ad nisi quis in do enim quis nostrud laborum excepteur duis aliquip sed sit ea id reprehenderit elit quis eiusmod dolore tempor ad.
+        Developed a strategic plan and implementation guide for a major technology company to incorporate behavioral insights into the design of a workplace wellness program
     - icon: medkit
       iconcolor: "#49A078"
-      feature: Social teams
+      feature: Executive level training
       text: > 
-        Competitive and collaborative teams. Labore esse exercitation et labore dolor sit consectetur duis in veniam deserunt eiusmod laborum ut ullamco consequat voluptate consectetur enim.
+        Conducted workshops and provided onsite training on behavioral economics and gamification design
 
 wearables:
   featureset: Wearables
@@ -48,12 +48,12 @@ wearables:
   blurbs:
     - icon: flag-checkered
       iconcolor: "#49A078"
-      header: Physical Activity
+      header: Increased impact of wearables on employee health
       text: >
-        Ut officia enim est consequat proident est et duis in quis ut enim excepteur minim incididunt incididunt ut laborum occaecat amet aute nulla ad aliqua fugiat nisi eiusmod magna cillum nulla nulla in esse in id laboris eiusmod occaecat.
+        Established a behavioral engagement program for a large technology company that was implemented along with the use of wearable to increase device utilization and changes in health behaviors related to physical activity, weight loss, and sleep
     - icon: random
       iconcolor: "#49A078"
-      header: Adherence
+      header: Developed a remote-monitoring program for cancer patients
       text: >
-        Dolore reprehenderit mollit mollit ut qui cupidatat pariatur eu cupidatat commodo aute amet minim anim enim reprehenderit ad nostrud culpa non velit dolor ullamco sit pariatur cupidatat. 
+        Provided guidance for a large biopharma company on using wearables to remotely monitor cancer patient behaviors and treatment response 
 ---
