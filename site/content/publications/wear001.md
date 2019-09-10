@@ -8,7 +8,7 @@ topic: Wearables
 date: '2019-09-09'
 authors: ' '
 source: 'https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2749761'
-journal: JAMA Internal Medicine
+journal: JAMA IM
 summary: ' '
 spotlight: true
 ---
