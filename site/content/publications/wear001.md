@@ -1,9 +1,9 @@
 ---
 title: wear001
 articlename: >-
-  Effectiveness of Behaviorally Designed Gamification Interventions With Social
-  Incentives for Increasing Physical Activity Among Overweight and Obese Adults
-  Across the United States: The STEP UP Randomized Clinical Trial
+  The STEP UP Trial: Effectiveness of Behaviorally Designed Gamification
+  Interventions With Social Incentives for Increasing Physical Activity Among
+  Overweight and Obese Adults Across the United States
 topic: Wearables
 date: '2019-09-09'
 authors: ' '
