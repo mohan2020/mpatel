@@ -7,8 +7,8 @@ articlename: >-
 topic: Nudges
 date: '2019-11-15'
 authors: ' '
-source: JAMA Network Open
-journal: ' '
+source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2755489'
+journal: ' JAMA Network Open'
 summary: ' '
 spotlight: false
 ---
