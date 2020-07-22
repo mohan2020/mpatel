@@ -26,7 +26,7 @@ timeline:
       icon: trophy
       iconcolor: blue
       milestone: Quality and Practice Innovation Award
-      text: Society of General Internal Medicine (SGIM)  
+      text: Society of General Internal Medicine 
     - date: 2019
       icon: trophy
       iconcolor: blue
