@@ -34,7 +34,7 @@ First, it’s not relevant to younger people.  It could distract from the main m
 
 Second, it could lead to something know as the ‘[boomerang effect](https://en.wikipedia.org/wiki/Boomerang_effect_(psychology))' -  in which one is persuaded to do exactly the opposite of what was intended. Consider the case of a younger individual who learns that the elderly are particularly vulnerable and have higher benefits from receiving the flu shot.  That person might infer that he or she is at lower risk or unlikely to get sick – and they might think of themselves as a “[young invincible](https://en.wikipedia.org/wiki/Young_invincibles).”  
 
-When thinking about targeting your campaign, be careful not to rely solely on demographic information (e.g. age, gender, race/ethnicity).  Instead focus on ways to identify different in risk and behavior.
+When thinking about targeting your campaign, be careful not to rely solely on demographic information (e.g. gender, race/ethnicity).  Instead focus on ways to identify different in risk and behavior.
 
 Risk can be identified in different ways.  For influenza, age is a key factor with elderly persons at higher risk.  However, younger people who have weakened immune systems or respiratory conditions such as asthma are also at higher risk than a healthy person at the same age.
 
