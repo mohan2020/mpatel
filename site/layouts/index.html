@@ -31,29 +31,32 @@
 {{ $v7 := where .Data.Pages "Section" "av" }}
 {{ $v8 := where .Data.Pages "Params.spotlight" true }}
 {{ $filteredav := $v7 | intersect $v8 }}
+{{ $v9 := where .Data.Pages "Section" "blog" }}
+{{ $v10 := where .Data.Pages "Params.spotlight" true }}
+{{ $filteredblog := $v9 | intersect $v10 }}
         <!--div style="background-color: #6145ca; color: white;"-->
         <div >
             <br/><br/>
             <div class="row push-20-t push-20">
                 <section class="content content-boxed overflow-hidden">
                     <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Opinion Pieces</h2>
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Blog</h2>
                         <hr/>
-                        {{ range first 3 $filteredopinions }}
+                        {{ range first 3 $filteredblog }}
                             {{ partial "blocksindex" . }}
                         {{ end }}
                         <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="opinions">View more</a>
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="blog">View more</a>
                         </div>
                     </div>
                     <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Opinions</h2>
                         <hr/>
-                        {{ range first 3 $filteredpublications }}
+                        {{ range first 3 $filteredopinions }}
                             {{ partial "blocksindex" . }}
                         {{ end }} 
                         <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="opinions">View more</a>
                         </div>
                     </div>
                 </section>
@@ -82,6 +85,20 @@
                     </div>
                 </section>
             </div>
+            <div class="row push-20-t push-20">
+                <section class="content content-boxed overflow-hidden">
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+                        <hr/>
+                        {{ range first 3 $filteredpublications }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                        </div>
+                    </div>
+                </section>
+            </div>            
         </div>
     </main>
     <!-- END Main Container -->

@@ -15,9 +15,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
       - {label: "Splash image", name: "image", widget: "image"} # background image. Use a large one. Check out unsplash.com for options
-      - {label: "Author Name", name: "authorname", widget: "string"} #Author Name
-      - {label: "Author image", name: "authorimage", widget: "image"} # background image
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
   - name: "press" # Used in routes, e.g., /admin/collections/blog
     label: "Press" # Used in the UI
