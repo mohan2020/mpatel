@@ -1,5 +1,5 @@
 ---
-title: Three ways to improve flu shot campaigns
+title: Three Ways to Improve Flu Shot Campaigns
 date: '2020-08-24'
 summary: >-
   Flu season is right around the corner. The COVID-19 pandemic has made it more
