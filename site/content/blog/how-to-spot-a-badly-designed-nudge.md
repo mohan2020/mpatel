@@ -6,7 +6,7 @@ summary: >-
   may be even more important to consider how to identify a badly designed
   nudge. 
 spotlight: true
-image: /img/uploads/nudge-elephants.jpg
+image: /img/uploads/nudge-pic.png
 ---
 Most people tend to ask the question: [How do you design a good nudge?](https://journalofethics.ama-assn.org/article/designing-nudges-success-health-care/2020-09) But it may be even more important to consider how to identify a badly designed nudge.  
 
