@@ -1,5 +1,5 @@
 ---
-title: Three ways to improve flu shot campaigns
+title: Three Ways to Improve Flu Shot Campaigns
 date: '2020-08-24'
 summary: >-
   Flu season is right around the corner. The COVID-19 pandemic has made it more
@@ -51,3 +51,5 @@ Or you might time your message with the beginning of the month of October and le
 ## Summary
 
 Flu vaccine campaigns are more important than ever to get right.  It is possible to achieve higher vaccination rates by carefully designing the message. Focus on motivational drivers, target the message rather than sending the same content to everyone, and don’t forget to reinforce the message in a meaningful way.
+
+_Have a question or want to reach out?  _[_Click here_](https://www.miteshspatel.com/contact/)_ to send Dr. Mitesh Patel a message. _
