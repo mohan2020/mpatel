@@ -50,5 +50,5 @@ It can also be done by making the right thing the easy thing.  Generic medicatio
 
 Badly designed nudges are more common than they should be in health care. Avoid these common pitfalls and make sure your nudge is on target.
 
-_Have a question or want to reach out?  _[_Click here_](https://www.miteshspatel.com/contact/)_ to send Dr. Mitesh Patel a message. 
+_Have a question or want to reach out?  _[_Click here_](https://www.miteshspatel.com/contact/)_ to send Dr. Mitesh Patel a message.
 _
