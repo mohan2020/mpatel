@@ -15,8 +15,6 @@ Apple and Fitbit both offer a free trial - some Fitbits come with a 1-year of fr
 
 So, what is driving the shift to a subscription model, is this trend here to stay and will it impact our health?  Let’s consider the driving forces.
 
-
-
 ## The Business Case
 
 One of the most challenging issues for wearable device companies is that nearly half of people that purchase a wearable stop using it after a few months. [In a randomized trial](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2760436), we asked patients discharged from the hospital to remotely track their activity levels.  Half used an app on their smartphone, the other half used that app plus a wearable device.  
@@ -27,8 +25,6 @@ The hope is that a subscription model might be able to keep more people engaged 
 
 As competition has increased, the price of wearables has also trended down.  A subscription model could allow these companies the ability to offer the device at a lower cost and to derive their profits primarily from the recurring subscriptions.  It also becomes a point of differentiation compared to wearables that do not have these types of additional offerings.
 
-
-
 ## Motivating Healthy Behaviors
 
 [In a previous article](https://jamanetwork.com/journals/jama/article-abstract/2089651), my colleagues and I argued that wearables were more facilitators, not drivers, of health behavior change. This has been best demonstrated by clinical trials that focus only on providing a wearable in hopes of changing behavior.  A notable example was in a [clinical trial](https://jamanetwork.com/journals/jama/fullarticle/2553448) that offer wearables for maintaining weight loss.  They found those in the wearable arm gained back more weight than those who were asked to continue to do what had worked to initially lose the weight.  It didn’t help that this was an older wearable that had to be worn around the upper arm and be plugged into a computer every day.  But a key missing component was an effective behavior change strategy.
@@ -37,10 +33,8 @@ They key to changing behavior is combining these technologies with a well-design
 
 These subscription models aim to do something similar.  The hope is that virtual workouts and advanced data insights will be the thing needed to help drive behavior change. But time will tell whether it works. In the studies mentioned, we have found that subtle changes in design can have a big impact on how impactful the program turns out to be. The key to success will likely depend on if the design of these programs is based on how humans behave.  [In prior work](https://journals.sagepub.com/doi/10.1177/0890117118790394), we found that most of the top health and wellness apps that used gamification did not incorporate important behavioral insights into their design. Hopefully, things are different with these new wearable offerings, but it is likely that an opportunity for improvement remains.
 
-
-
 ## Summary
 
 The market of wearable devices is entering a new phase with the emergence of subscription plans.  The main drivers are likely focused on the business case for engaging consumers for longer durations and the hope that these programs can better drive behavior change than the devices alone. This new trend is likely here to stay but whether the devices will improve healthy behaviors will depend on whether the programs continue to adapt to what really drives our motivation.
 
-_Have a question or want to reach out?  _[_Click here to send me a message_](https://www.miteshspatel.com/contact/)_. _
+Have a question or want to reach out?  [Click here to send me a message](https://www.miteshspatel.com/contact/).
