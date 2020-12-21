@@ -16,7 +16,7 @@ image: /img/uploads/top-5.jpg
 [**5. PLOS One: Phenotyping Physician Practice Patterns and Associations with Response to a Nudge in the Electronic Health Record for Influenza Vaccination: A Quasi-Experimental Study**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232895)\*\*
 \*\*
 
-In this study led by latent class analysis using electronic health record (EHR) data identified two phenotypes of clinician practice patterns – one that had a lower clinical workload and one that had a higher clinical workload. We then looked at how these two groups differed in their response to a nudge in the EHR for influenza vaccination. We had previously found that this nudge led to a [significant 9.5-percentage point increase](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2702210) in influenza vaccination.  However, in this study we found that clinicians with a lower clinical workload had no change in their vaccination rates.  Instead, the bulk of the impact was on clinicians with a higher clinical workload. This indicates the nudge may have helped streamline processes that benefited busy clinicians.
+In this study led by [Sujatha Changolkar](https://twitter.com/schangolkar), latent class analysis using electronic health record (EHR) data identified two phenotypes of clinician practice patterns – one that had a lower clinical workload and one that had a higher clinical workload. We then looked at how these two groups differed in their response to a nudge in the EHR for influenza vaccination. We had previously found that this nudge led to a [significant 9.5-percentage point increase](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2702210) in influenza vaccination.  However, in this study we found that clinicians with a lower clinical workload had no change in their vaccination rates.  Instead, the bulk of the impact was on clinicians with a higher clinical workload. This indicates the nudge may have helped streamline processes that benefited busy clinicians.
 
 [**4. PLOS One: Association Between Behavioral Phenotypes and Response to a Physical Activity Intervention Using Gamification and Social Incentives: Secondary Analysis of the STEP UP Randomized Clinical Trial
 **](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0239288)
@@ -33,10 +33,10 @@ In this randomized trial co-led by [Chris Manz](https://twitter.com/chrismanzmd)
 
 In this randomized trial led by [Sri Adusumalli](https://twitter.com/sri_adu), we tested two nudges in the EHR to encourage cardiologists to either prescribe or increase dosing of statins for patients at high risk of major cardiovascular events such as heart attack or stroke. This is one of our first prospective evaluations of randomized nudges in the EHR. The trial found that the interventions had no impact on prescribing overall but had a small increase in the optimal dosing of statins among patients at highest risk who already had atherosclerotic cardiovascular disease.
 
-[1. JAMA Network Open: Smartphones versus Wearable Devices for Remotely Monitoring Physical Activity After Hospital Discharge: A Secondary Analysis of a Randomized Clinical Trial
+[**1. JAMA Network Open: Smartphones versus Wearable Devices for Remotely Monitoring Physical Activity After Hospital Discharge: A Secondary Analysis of a Randomized Clinical Trial**
 ](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2760436)
 
-In this analysis of an ongoing randomized trial, we compared the sustainability of using smartphones or wearable devices to remotely-monitor activity levels among patients discharged from the hospital. At 6 months, 61.5% of patients using a smartphone were still transmitting data while only 46.5% of those using a wearable were doing so.  
+In this analysis of an ongoing randomized trial, we compared the sustainability of using smartphones or wearable devices to remotely-monitor activity levels among patients discharged from the hospital. At 6 months, 61.5% of patients using a smartphone were still transmitting data while only 46.5% of those using a wearable were doing so.  Since most people already have smartphones, these findings suggest we can use the devices already in our pockets to help improve engagement within remote-monitoring programs.
 
 **Summary
 **
