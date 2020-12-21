@@ -7,7 +7,7 @@ summary: >-
   vaccination rates in the United States have been mostly unchanged over the
   past decade. In fact, less than half of Americans get the vaccine each year. 
   So, what can be done to change that? Here are three concrete ways. 
-spotlight: true
+spotlight: false
 image: /img/bg/flushot.jpg
 ---
 Flu season is right around the corner. The COVID-19 pandemic has made it more important than ever to get the flu shot. Despite numerous efforts, flu vaccination rates in the United States have been mostly unchanged over the past decade. In fact, less than half of Americans get the vaccine each year.  So, what can be done to change that?
