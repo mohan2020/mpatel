@@ -9,12 +9,9 @@ image: /img/uploads/top-5.jpg
 ---
 2020 was a year like none other!  At the Penn Medicine Nudge Unit, many projects were put on hold while the health system quickly adapted to meet the needs of the COVID-19 pandemic.  However, it also created some opportunities for our group to focus on new areas of work and rethink the design of our work. Here is a quick look at the Top 5 articles published in 2020 from the Penn Medicine Nudge Unit, based on Altmetric scores and citations. 
 
-## \*\*Top 5 Articles Published in 2020
+## Top 5 Articles Published in 2020
 
-\*\*
-
-[**5. PLOS One: Phenotyping Physician Practice Patterns and Associations with Response to a Nudge in the Electronic Health Record for Influenza Vaccination: A Quasi-Experimental Study**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232895)\*\*
-\*\*
+[**5. PLOS One: Phenotyping Physician Practice Patterns and Associations with Response to a Nudge in the Electronic Health Record for Influenza Vaccination: A Quasi-Experimental Study**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232895)
 
 In this study led by [Sujatha Changolkar](https://twitter.com/schangolkar), latent class analysis using electronic health record (EHR) data identified two phenotypes of clinician practice patterns – one that had a lower clinical workload and one that had a higher clinical workload. We then looked at how these two groups differed in their response to a nudge in the EHR for influenza vaccination. We had previously found that this nudge led to a [significant 9.5-percentage point increase](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2702210) in influenza vaccination.  However, in this study we found that clinicians with a lower clinical workload had no change in their vaccination rates.  Instead, the bulk of the impact was on clinicians with a higher clinical workload. This indicates the nudge may have helped streamline processes that benefited busy clinicians.
 
