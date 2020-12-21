@@ -4,7 +4,7 @@ date: '2020-12-21'
 summary: >-
   2020 was a year like none other!  Here is a quick look at the Top 5 articles
   published in 2020 from the Penn Medicine Nudge Unit.
-spotlight: false
+spotlight: true
 image: /img/uploads/top-5.jpg
 ---
 2020 was a year like none other!  At the Penn Medicine Nudge Unit, many projects were put on hold while the health system quickly adapted to meet the needs of the COVID-19 pandemic.  However, it also created some opportunities for our group to focus on new areas of work and rethink the design of our work. Here is a quick look at the Top 5 articles published in 2020 from the Penn Medicine Nudge Unit, based on Altmetric scores and citations. 
