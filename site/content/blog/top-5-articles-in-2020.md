@@ -34,6 +34,6 @@ In this analysis of an ongoing randomized trial, we compared the sustainability 
 
 **Summary**
 
-That’s a quick look at the Top 5 articles from the Penn Medicine Nudge Unit in 2020.  Stay tuned for an upcoming post with a sneak peak on what’s in store for 2021.
+That’s a quick look at the Top 5 articles from the Penn Medicine Nudge Unit in 2020.  Stay tuned for an upcoming post with a sneak peek on what’s in store for 2021.
 
 Have a question or want to reach out?  [Click here to send me a message](https://www.miteshspatel.com/contact/).
