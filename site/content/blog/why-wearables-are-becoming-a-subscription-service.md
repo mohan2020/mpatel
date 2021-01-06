@@ -6,7 +6,7 @@ summary: >-
   devices to target the growing health and wellness market. But something about
   these new products was different than in prior releases – a subscription
   service. 
-spotlight: true
+spotlight: false
 image: /img/uploads/wearable2.png
 ---
 In just the past few weeks, [Apple](https://www.theverge.com/2020/9/15/21437578/apple-fitness-plus-classes-subscription-health), [Fitbit](https://www.marketwatch.com/story/fitbit-unveils-new-sense-smartwatch-revamps-inspire-and-versa-devices-2020-08-25) and [Amazon](https://www.cnbc.com/2020/08/27/amazon-hal-wearable-tracks-activity-body-fat-emotions.html) launched new wearable devices to target the growing health and wellness market. But something about these new products was different than in prior releases – a subscription service. 
