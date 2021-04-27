@@ -12,6 +12,6 @@ authors: >-
 source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2760436'
 journal: JAMA Network Open
 summary: ' '
-spotlight: false
+spotlight: true
 ---
 
