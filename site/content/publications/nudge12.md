@@ -10,6 +10,6 @@ authors: ' '
 source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2755489'
 journal: ' JAMA Network Open'
 summary: ' '
-spotlight: false
+spotlight: true
 ---
 
