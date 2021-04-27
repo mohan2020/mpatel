@@ -15,7 +15,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"} #title of the blog post
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Summary", name: "summary", widget: "string"} # summary of the post
-      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: true}
       - {label: "Splash image", name: "image", widget: "image"} # background image. Use a large one. Check out unsplash.com for options
       - {label: "Body", name: "body", widget: "markdown"} #body of the case study
   - name: "press" # Used in routes, e.g., /admin/collections/blog
@@ -28,7 +28,7 @@ collections:
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Source", name: "source", widget: "string"} #Author Name
-      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: true}
       - {label: "Summary", name: "summary", widget: "markdown", required: false} # summary of the post. Not used currently.
       - {label: "Thumbnail image", name: "image", widget: "image", required: false} # background image
   - name: "av" # Used in routes, e.g., /admin/collections/blog
@@ -41,7 +41,7 @@ collections:
       - {label: "Publication Name", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD"} # date of publication / creation
       - {label: "Source", name: "source", widget: "string"} #Author Name      
-      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: true}
       - {label: "Summary", name: "summary", widget: "markdown", required: false} # summary of the post
       - {label: "Thumbnail image", name: "image", widget: "image", required: false} # background image
   - name: "opinions" # Used in routes, e.g., /admin/collections/blog
@@ -72,4 +72,4 @@ collections:
       - {label: "Journal Abbr", name: "journal", widget: "string"} #Abbreviated Journal name in citation
       - {label: "Summary (not used currently)", name: "summary", widget: "string"} # summary of the post      
       - {label: "Thumbnail image (not used currently)", name: "image", widget: "image", required: false} # background image
-      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: false}
+      - {label: "Spotlight?", name: "spotlight", widget: "boolean", default: true}
