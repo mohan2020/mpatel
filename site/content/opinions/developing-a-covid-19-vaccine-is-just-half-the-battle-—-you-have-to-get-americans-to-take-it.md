@@ -6,7 +6,7 @@ journal: USA Today
 date: '2020-06-05'
 source: >-
   https://www.usatoday.com/story/opinion/2020/06/05/corona-virus-vaccine-herd-immunity-vaccinations-behavior-column/3126219001/
-spotlight: true
+spotlight: false
 summary: >-
   If a vaccine for the coronavirus became available, would you get it? A recent
   poll found that only 49% of Americans said yes.  While this may seem
