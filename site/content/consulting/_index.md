@@ -4,7 +4,7 @@ image:
 bgcolor: "#242F40"
 
 introduction: >
-  Dr. Patel provides consulting, via Catalyst Health LLC, to a broad range of Fortune 500 organizations including health insurers, health systems, biopharma, and technology companies. He has helped to provide guidance on high-level strategy, design and implementation of operations and research protocols, and led workshops to train executives on embedding behavioral insights within their company’s products and services. Here are selected examples of his work
+  Dr. Patel provides consulting, via the [Virtual Nudge Unit](https://www.virtualnudgeunit.com), to a broad range of Fortune 500 organizations including health insurers, health systems, biopharma, and technology companies. He has helped to provide guidance on high-level strategy, design and implementation of operations and research protocols, and led workshops to train executives on embedding behavioral insights within their company’s products and services. Here are selected examples of his work
 
 nudges:
   featureset: Nudges
