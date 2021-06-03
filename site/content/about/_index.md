@@ -1,5 +1,5 @@
 ---
-title: Physician-Scientist and Director of the Penn Medicine Nudge Unit
+title: Physician Executive and Behavioral Scientist
 image: 
 bgcolor: "#70b9eb"
 txtcolor: white
