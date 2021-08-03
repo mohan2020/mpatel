@@ -4,7 +4,7 @@ journal: Washington Post
 date: '2021-05-24'
 source: >-
   https://www.washingtonpost.com/outlook/2021/05/24/nudges-vaccination-psychology-messaging/
-spotlight: true
+spotlight: false
 summary: >-
   Lotteries and cash payouts are getting lots of attention. But smaller nudges
   work, too.
