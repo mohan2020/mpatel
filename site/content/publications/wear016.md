@@ -9,6 +9,6 @@ authors: Patel et al
 source: 'https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2780065'
 journal: JAMA Network Open
 summary: ' '
-spotlight: true
+spotlight: false
 ---
 
