@@ -16,10 +16,10 @@ mission:
        Dr. Patel was the Founding Director of the Penn Medicine Nudge Unit from 2016 to 2021, the world’s first behavioral design team embedded within a health system. He led a 20+ person behavioral design team that focused on improving health and health care through the use of nudges, gamification, and wearables. Learn more about the Penn Medicine Nudge Unit [here](https://nudgeunit.upenn.edu).
     - title: Perelman School of Medicine
       description: >
-        Ralph Muller Presidential Associate Professor of Medicine at the Perelman School. Dr. Patel is on faculty at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics. 
+        Ralph Muller Presidential Professor of Medicine at the Perelman School. Dr. Patel was on the faculty until 2021 at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics. 
     - title: The Wharton School
       description: >
-        Ralph Muller Presidential Associate Professor of Health Care Management at the Wharton School. He is also the Co-Director of the Wharton MBA course on e-health.
+        Ralph Muller Presidential Professor of Health Care Management at the Wharton School. He is also the Co-Director of the Wharton MBA course on e-health.
     - title: Crescenz VA Medical Center
       description: >
         Staff physician at the Crescenz VA Medical Center in Philadelphia from 2012 to 2021.
@@ -90,4 +90,9 @@ timeline:
       iconcolor: blue
       milestone: Fellow
       text: Robert Wood Johnson Foundation Clinical Scholars Program
+    - date: 2021
+      icon: trophy
+      iconcolor: green
+      milestone: Award for Distinguished Contributions to Behavioral Medicine
+      text: American College of Physicians      
 ---
