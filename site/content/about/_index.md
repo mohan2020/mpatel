@@ -25,6 +25,11 @@ mission:
         Staff physician at the Crescenz VA Medical Center in Philadelphia from 2012 to 2021.
 timeline:
   milestones:
+    - date: 2021
+      icon: trophy
+      iconcolor: green
+      milestone: Award for Distinguished Contributions to Behavioral Medicine
+      text: American College of Physicians  
     - date: 2020
       icon: trophy
       iconcolor: blue
@@ -89,10 +94,5 @@ timeline:
       icon: trophy
       iconcolor: blue
       milestone: Fellow
-      text: Robert Wood Johnson Foundation Clinical Scholars Program
-    - date: 2021
-      icon: trophy
-      iconcolor: green
-      milestone: Award for Distinguished Contributions to Behavioral Medicine
-      text: American College of Physicians      
+      text: Robert Wood Johnson Foundation Clinical Scholars Program      
 ---
