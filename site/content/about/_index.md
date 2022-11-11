@@ -8,9 +8,9 @@ introduction: Dr. Mitesh Patel is a leading expert on using nudges, gamification
 introduction2: He has led more than 25 clinical trials in partnership with health systems, insurers, employers, and community organizations that tested ways to design nudges, incentives, and gamification to change clinician and patient behavior. This work includes digital health interventions using wearable devices and smartphones, and health system interventions using the electronic health record. His work has been published in leading medical journals including the New England Journal of Medicine, JAMA, Annals of Internal Medicine, and Health Affairs. His work has been featured in numerous media outlets including the New York Times, NBC Today Show, Wall Street Journal, Washington Post, Forbes, Bloomberg, Time, NPR and CNN.
 mission:
   blurbs:
-    - title: Ascension Health
+    - title: Ascension
       description: > 
-       Vice President for Clinical Transformation and National Lead for Behavioral Insights.
+       Chief Clinical Transformation Officer and National Vice President.
     - title: Penn Medicine Nudge Unit
       description: > 
        Dr. Patel was the Founding Director of the Penn Medicine Nudge Unit from 2016 to 2021, the world’s first behavioral design team embedded within a health system. He led a 20+ person behavioral design team that focused on improving health and health care through the use of nudges, gamification, and wearables. Learn more about the Penn Medicine Nudge Unit [here](https://nudgeunit.upenn.edu).
@@ -19,7 +19,7 @@ mission:
         Ralph Muller Presidential Professor of Medicine at the Perelman School. Dr. Patel was on the faculty until 2021 at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics. 
     - title: The Wharton School
       description: >
-        Ralph Muller Presidential Professor of Health Care Management at the Wharton School. He is also the Co-Director of the Wharton MBA course on e-health.
+        Adjunct Professor of Health Care Management. He is also Co-Director of the Wharton MBA course on The Digital Transformation of Health Care.
     - title: Crescenz VA Medical Center
       description: >
         Staff physician at the Crescenz VA Medical Center in Philadelphia from 2012 to 2021.
