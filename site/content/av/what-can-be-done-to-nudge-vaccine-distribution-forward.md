@@ -2,8 +2,7 @@
 articlename: What Can Be Done to Nudge Vaccine Distribution Forward?
 journal: Full Frontal with Samantha Bee
 date: '2021-03-17'
-source: >-
-  https://www.tbs.com/clips/what-can-be-done-to-nudge-vaccine-distribution-forward
+source: 'https://www.youtube.com/watch?v=ZLxlzlhjE1g'
 spotlight: true
 summary: >-
   Despite more and more people becoming eligible for vaccination, it seems like
