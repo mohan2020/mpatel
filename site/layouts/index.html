@@ -39,16 +39,16 @@
             <br/><br/>
             <div class="row push-20-t push-20">
                 <section class="content content-boxed overflow-hidden">
-<!--                     <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Blog</h2>
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
                         <hr/>
-                        {{ range first 3 $filteredblog }}
-                            {{ partial "blogindex" . }}
-                        {{ end }}
+                        {{ range first 3 $filteredpublications }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
                         <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="blog">View more</a>
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="block block-transparent col-lg-6">
                         <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Opinions</h2>
                         <hr/>
@@ -87,14 +87,14 @@
             </div>
             <div class="row push-20-t push-20">
                 <section class="content content-boxed overflow-hidden">
-                    <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+	                <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Blog</h2>
                         <hr/>
-                        {{ range first 3 $filteredpublications }}
-                            {{ partial "blocksindex" . }}
-                        {{ end }} 
+                        {{ range first 3 $filteredblog }}
+                            {{ partial "blogindex" . }}
+                        {{ end }}
                         <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="blog">View more</a>
                         </div>
                     </div>
                 </section>
