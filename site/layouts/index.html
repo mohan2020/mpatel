@@ -11,7 +11,7 @@
             
             <div class="row">
                 <div class="col-xs-12">
-                <p class="lead">Mitesh Patel, MD, MBA is a Physician Executive and Behavioral Scientist.  He is the Chief Clinical Transformation Officer and National Vice President at Ascension. He is also an Adjunct Professor of Health Care Management at The Wharton School of the University of Pennsylvania. Dr. Patel was previously the Founding Director of the Penn Medicine Nudge Unit, the world's first behavioral design team embedded within a health system. In this role, he led 25+ clinical trials testing the design of nudges, gamification and wearables to change clinician decisions and patient behaviors. He conducts consulting and speaking for a wide range of partners including health systems, insurers, biopharma and technology companies  </p>
+                <p class="lead">Mitesh Patel, MD, MBA is a Physician Executive and Behavioral Scientist.  He is Vice President for Clinical Transformation and National Lead for Behavioral Insights at Ascension Health. Dr. Patel was previously the Founding Director of the Penn Medicine Nudge Unit, the world's first behavioral design team embedded within a health system. In this role, he led 25+ clinical trials testing the design of nudges, gamification and wearables to change clinician decisions and patient behaviors. He conducts consulting and speaking for a wide range of partners including health systems, insurers, biopharma and technology companies  </p>
                 </div>
             </div>
             <hr />
@@ -34,19 +34,19 @@
 {{ $v9 := where .Data.Pages "Section" "blog" }}
 {{ $v10 := where .Data.Pages "Params.spotlight" true }}
 {{ $filteredblog := $v9 | intersect $v10 }}
-        <div style="background-color: #6145ca; color: white;"
+        <!--div style="background-color: #6145ca; color: white;"-->
         <div >
             <br/><br/>
             <div class="row push-20-t push-20">
                 <section class="content content-boxed overflow-hidden">
                     <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Media</h2>
                         <hr/>
-                        {{ range first 3 $filteredpublications }}
+                        {{ range first 3 $filteredav }}
                             {{ partial "blocksindex" . }}
                         {{ end }} 
                         <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="av">View more</a>
                         </div>
                     </div>
                     <div class="block block-transparent col-lg-6">
@@ -74,20 +74,6 @@
                         </div>
                     </div>
                     <div class="block block-transparent col-lg-6">
-                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Media</h2>
-                        <hr/>
-                        {{ range first 3 $filteredav }}
-                            {{ partial "blocksindex" . }}
-                        {{ end }} 
-                        <div class="text-center">
-                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="av">View more</a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-           <div class="row push-20-t push-20">
-                <section class="content content-boxed overflow-hidden">
-	                <div class="block block-transparent col-lg-6">
                         <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear"> Blog</h2>
                         <hr/>
                         {{ range first 3 $filteredblog }}
@@ -99,6 +85,20 @@
                     </div>
                 </section>
             </div>
+            <div class="row push-20-t push-20">
+                <section class="content content-boxed overflow-hidden">
+                    <div class="block block-transparent col-lg-6">
+                        <h2 class="h3 text-uppercase push-50 visibility-hidden" data-toggle="appear">Publications</h2>
+                        <hr/>
+                        {{ range first 3 $filteredpublications }}
+                            {{ partial "blocksindex" . }}
+                        {{ end }} 
+                        <div class="text-center">
+                            <a class="btn btn-rounded btn-noborder btn-md btn-info" href="publications">View more</a>
+                        </div>
+                    </div>
+                </section>
+            </div>            
         </div>
     </main>
     <!-- END Main Container -->
